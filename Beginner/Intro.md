@@ -35,3 +35,103 @@ azure_storage_sas_token = "sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T
 - Create a blob storage
 - For URI : https://azureopendatastorage.blob.core.windows.net/
 - for SAS key: sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T00:21:16Z&st=2020-04-13T16:21:16Z&spr=https&sig=JgwLYbdGruHxRYTpr5dxfJqobKbhGap8WUtKFadcivQ%3D
+
+- Create a blob source
+- save the input as azureopendataste
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner1.jpg "Architecture")
+
+- Select the Source
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner1.jpg "Architecture")
+
+- Choose the container
+- Choose censusdatacontainer
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner3.jpg "Architecture")
+
+- Click next to view the schema
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner4.jpg "Architecture")
+
+- Next create ADLS gen2 as destination
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner5.jpg "Architecture")
+
+- Name it as ADLSoutput
+- Select the subscription and storage account name
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner6.jpg "Architecture")
+
+- Choose a container
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner7.jpg "Architecture")
+
+- Click Next and Next
+- Keep everything as default
+- Click Finish
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner8.jpg "Architecture")
+
+- Wait the deployment to run
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner10.jpg "Architecture")
+
+- View the transfer
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner9.jpg "Architecture")
+
+## Now to Azure Machine learning setps
+
+- Lets create a setup
+- First Create a dataset and datastore
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner11.jpg "Architecture")
+
+- create a datastore
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner12.jpg "Architecture")
+
+- Select the folder
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner13.jpg "Architecture")
+
+- View the file and select first column as header
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner14.jpg "Architecture")
+
+- Validate the column
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner15.jpg "Architecture")
+
+- Click next and click Create
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner16.jpg "Architecture")
+
+- Create Automated ML experiment
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner17.jpg "Architecture")
+
+- Select the dataset
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner18.jpg "Architecture")
+
+- Create a compute cpu-compute
+- Use 0 to 2 nodes is good
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner19.jpg "Architecture")
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner20.jpg "Architecture")
+
+- Select the regression
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner21.jpg "Architecture")
+
+- Click finish
+- Click Run
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner22.jpg "Architecture")
+
+- Running
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner23.jpg "Architecture")
