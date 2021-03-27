@@ -135,3 +135,13 @@ azure_storage_sas_token = "sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T
 - Running
 
 ![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner23.jpg "Architecture")
+
+- Once the experiment completed
+- usually takes 2 to 3 hours
+- Go to experiment and view the output
+- Only the best model will have view explanation
+- Check the explanation or feature importance to see which columns had the most impact on prediction
+- Those are the columns we need to use
+- Select the best model and Deploy
+- Deploy to AKS cluster
+- Get the REST api details and test it
