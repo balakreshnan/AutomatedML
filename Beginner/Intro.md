@@ -1,5 +1,7 @@
 # Automated Machine learning End to End Hack
 
+## Citizen Data science open hack
+
 ## Introduction
 
 Automated Machine Learning hackathon: To learn how to use automated machine learning build models and deploy to production.
