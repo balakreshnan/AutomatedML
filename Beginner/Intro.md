@@ -10,10 +10,15 @@
 - There is no need to format data for ML algorithmns
 - Tabular data is enough
 - Make sure all the features and label are available
+- To Showcase Data Ops + Ml Ops
+- End to end process to get the data and process and then create machine learning models and consume
+- Note: the accuracy of the model is not important
+- We are using regression as a sample to predict population
+- Assumption is the source data in Azure Open data set and validate the configuration
 
 ## Architecture
 
-![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/images/automlarch.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/automlarch.jpg "Architecture")
 
 ## Azure Resources
 
@@ -22,12 +27,13 @@
 - Create Azure Storage account called automloutput
 - Create a Azure Data Factory - automladfopenhack
 - Azure open data set configuration
+- Create Azure machine learning service
+- Also create a container registry to store model pickle files
+- Create a compute-cluster
+- Create a Inference-cluster for AKS
+- List of resources created
 
-```
-# storage account details
-azure_storage_account_name = "azureopendatastorage"
-azure_storage_sas_token = "sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T00:21:16Z&st=2020-04-13T16:21:16Z&spr=https&sig=JgwLYbdGruHxRYTpr5dxfJqobKbhGap8WUtKFadcivQ%3D"
-```
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner44.jpg "Architecture")
 
 ## Steps
 
