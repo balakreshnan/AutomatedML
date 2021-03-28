@@ -39,7 +39,7 @@ azure_storage_sas_token = "sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T
 - Create a blob source
 - save the input as azureopendataste
 
-![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner0.jpg "Architecture")
 
 - Select the Source
 
