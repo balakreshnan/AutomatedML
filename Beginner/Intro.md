@@ -1,5 +1,19 @@
 # Automated Machine learning End to End Hack
 
+## Introduction
+
+Automated Machine Learning hackathon: To learn how to use automated machine learning build models and deploy to production.
+
+## Agenda
+
+- Introduction to Openhack
+- Introduction to Azure Machine learning - 1 hour
+- Introduction to Machine learning Ops  - 1 hour
+- Openhack use case introduction - 6 hours
+- Deploy model - 1 hour
+- Clean up - 15 minutes
+- Recap - 1 hour
+
 ## Use Case
 
 - Build a end to end pipeline
