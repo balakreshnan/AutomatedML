@@ -138,10 +138,113 @@ azure_storage_sas_token = "sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T
 
 - Once the experiment completed
 - usually takes 2 to 3 hours
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner24.jpg "Architecture")
+
 - Go to experiment and view the output
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner25.jpg "Architecture")
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner26.jpg "Architecture")
+
+- Go to Metrics and view
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner27.jpg "Architecture")
+
 - Only the best model will have view explanation
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner28.jpg "Architecture")
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner29.jpg "Architecture")
+
 - Check the explanation or feature importance to see which columns had the most impact on prediction
+- Logs model information
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner30.jpg "Architecture")
+
 - Those are the columns we need to use
 - Select the best model and Deploy
 - Deploy to AKS cluster
-- Get the REST api details and test it
+- Create AKS cluster
+- Go to Compute and create inference cluster
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner31.jpg "Architecture")
+
+- Select Vm configuration
+- I am choosing Dev/Test since this is for hackathon
+- For production note minimum 12 nodes AKS cluster has to be created for HA
+- Production config below
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner32.jpg "Architecture")
+
+- Dev/Test configu
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner33.jpg "Architecture")
+
+- Then click create
+- AKS cluster creation started
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner34.jpg "Architecture")
+
+- Wait for the cluster to start
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner35.jpg "Architecture")
+
+- Then go back to experiment and Deploy process
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner36.jpg "Architecture")
+
+- Wait for REST API deploying is complete
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner37.jpg "Architecture")
+
+- Once completed the API should have been deployed
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner38.jpg "Architecture")
+
+- Click aksdeploy left to succeeded to go to Endpoint information
+- Once created an Endpoint will be created
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner39.jpg "Architecture")
+
+- Click Test tab
+- Type in the following information
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner40.jpg "Architecture")
+
+- Click Test and see the output
+
+```
+decennialTime : 2020
+zipCode: 77480
+race: WHITE ALONE
+sex: Female
+minAge: 56
+maxAge: 59
+```
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner41.jpg "Architecture")
+
+- Click Endpoint and should see the model endpoint deploy
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner42.jpg "Architecture")
+
+- Display Models
+
+![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner43.jpg "Architecture")
+
+## Cleanup
+
+- Delete all the resources
+- Drop the entire Resource group to get rid of all the components
+
+
+## Resource Deploy
+
+- I have downloaded the Resource manager template and stored in zip to recreate environment in power shell
+
+## Comments and Feedback
+
+## Conclusion
+
+- This is a beginner Automated Machine learning hack. Intermidate and Expert level will be next
