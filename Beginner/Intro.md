@@ -11,7 +11,7 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 - Introduction to Openhack
 - Introduction to Azure Machine learning - 1 hour
 - Introduction to Machine learning Ops  - 1 hour
-- Openhack use case introduction - 6 hours
+- Openhack use case introduction - 4 hours
 - Deploy model - 1 hour
 - Clean up - 15 minutes
 - Recap - 1 hour
