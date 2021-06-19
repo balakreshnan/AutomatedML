@@ -18,6 +18,8 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 
 ## Use Case
 
+- Predicting population growth for years to come. Prediciting population provides economist to know how to build the next generation supply chain across the world.
+- This information also allows countries and state to plan their future for healthcare, consumer demand and even urban development.
 - Build a end to end pipeline
 - Move data from source into Azure using Azure data factory
 - Process data as you move into Azure storage
