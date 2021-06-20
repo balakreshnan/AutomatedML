@@ -41,14 +41,14 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 ## Azure Resources
 
 - Azure Account
-- Create a Resource group called automlopenhack
-- Create Azure Storage account called automloutput
-- Create a Azure Data Factory - automladfopenhack
+- Create a Resource group called automlopenhack - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups
+- Create Azure Storage account called automloutput - https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal
+- Create a Azure Data Factory - automladfopenhack - https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-data-factory
 - Azure open data set configuration
-- Create Azure machine learning service
+- Create Azure machine learning service - https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources
 - Also create a container registry to store model pickle files
-- Create a compute-cluster
-- Create a Inference-cluster for AKS
+- Create a compute-cluster - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-attach-compute-cluster?tabs=python
+- Create a Inference-cluster for AKS - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-attach-kubernetes?tabs=python
 - List of resources created
 
 ![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner44.jpg "Architecture")
