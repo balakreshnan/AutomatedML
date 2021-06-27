@@ -72,6 +72,8 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 - Choose the container
 - Choose censusdatacontainer
 - Path - release/us_population_zip/
+- File can be in csv or parquet.
+- For parquet make sure wildcardfile path is specified for example container name: censusdatacontainer and path release/us_population_zip/ and Filename as *.parquet
 
 ![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner3.jpg "Architecture")
 
