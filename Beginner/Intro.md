@@ -58,7 +58,7 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 - Create Data factory copy pipeline
 - Create a blob storage
 - For URI : https://azureopendatastorage.blob.core.windows.net/
-- for SAS key: sv=2019-02-02&ss=bfqt&srt=sco&sp=rlcup&se=2025-04-14T00:21:16Z&st=2020-04-13T16:21:16Z&spr=https&sig=JgwLYbdGruHxRYTpr5dxfJqobKbhGap8WUtKFadcivQ%3D
+- for SAS key: ""
 
 - Create a blob source
 - save the input as azureopendataste
@@ -71,6 +71,7 @@ Automated Machine Learning hackathon: To learn how to use automated machine lear
 
 - Choose the container
 - Choose censusdatacontainer
+- Path - release/us_population_zip/
 
 ![alt text](https://github.com/balakreshnan/AutomatedML/blob/main/Beginner/images/beginner3.jpg "Architecture")
 
